@@ -3,7 +3,7 @@ import { View, Text, FlatList, StyleSheet } from 'react-native';
 import { io } from 'socket.io-client';
 
 // replace with your ngrok https URL once the server is running
-const SERVER_URL = 'https://YOUR-NGROK-URL.ngrok-free.app';
+const SERVER_URL = 'https://magma-unfazed-setting.ngrok-free.dev';
 
 type Lead = {
   id: string;
